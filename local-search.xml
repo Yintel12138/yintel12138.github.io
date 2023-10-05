@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2023/09/28/hello-world/"/>
+    <url>/2023/09/28/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>致我们终将逝去的青春</title>
+    <link href="/2023/09/28/LastLove/"/>
+    <url>/2023/09/28/LastLove/</url>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="8dbc075af9122dc23f719a74b4dc23b15c4239fa8a45ff303984daca3825cfda">ffb0b1dc140d343e3196a6699eef890355b3b67d4df9eda5e62156be79b30490ed8412f4b09b28b9ec9fecd5b68d7952680dbfefb7200c3700352bd8d55d22136312bd54a01cc94c8b34232f0ce17a43</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这篇博客需要密码才能看哦～猜猜密码吧（这次是真的要密码了哦）</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>青春</tag>
+      
+      <tag>情感</tag>
+      
+      <tag>加密</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>杭州之旅</title>
+    <link href="/2023/09/28/HangZhou-Journal/"/>
+    <url>/2023/09/28/HangZhou-Journal/</url>
+    
+    <content type="html"><![CDATA[<h2 id="抵达前"><a href="#抵达前" class="headerlink" title="抵达前"></a>抵达前</h2><p>此次前去杭州，是为了参加CCCC-移动应用创新赛的决赛，关于这个比赛，是由苹果和浙江大学共同举办的一场关于IOS应用开发的比赛。此处需要感谢我的队友提出富有创意和社会责任感的IDEA，使得我能够前往杭州参加决赛（本人主要负责IDEA的具体实现及开发工作）。此次参赛其实心态很放松，本着学习他人优秀作品以及旅游的态度去的，也没有想过能够拿到比较高的奖项（拿到保底就是胜利）。不过最后的结果却是令人惊喜的，这都是后话了。</p><p>前往杭州，我选择了乘坐天府机场的航班，这也是第一次到传说中“到哪里都是两小时，包括成都市区”的天府机场“赶飞机”，为了省钱，选了红眼航班（凌晨到达）。从电子科大清水河校区到天府机场的确是一段较远的行程，所以也提前预留了机动时间。</p><h2 id="Day1"><a href="#Day1" class="headerlink" title="Day1"></a>Day1</h2><p>到达杭州其实才凌晨，本着省钱的原则，在机场及其不舒适的椅子上“睡”了一晚上，其实感觉称不上睡……早上地铁开始运行后，就朝着目的地—浙江大学紫金港校区出发了。第一站，先去找已经到达杭州的队友小伙伴会合，答辩前最后一次调试代码，然后在他的酒店房间里面呼呼大睡。等到主办方的报道时间后，一起前往了主办方提供的酒店：浙大圆正启真水晶酒店进行报道。不得不说，还是集训营期间在上海的酒店更好一点（世纪大道旁边的万怡酒店，之后会补充介绍集训营），不过和上次一样的是，也配备了浴缸，可以泡澡了，美滋滋。</p><p>行程安排比较紧凑，上午报道，下午就开始进行决赛的评审了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>旅行</tag>
+      
+      <tag>生活记录</tag>
+      
+      <tag>移动应用创新赛</tag>
+      
+      <tag>比赛</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hexo加密功能</title>
+    <link href="/2019/09/04/crypto-test/"/>
+    <url>/2019/09/04/crypto-test/</url>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="2c64d506903a9c2529722c81c9b08445362bc574ff32f99e6f8d0e5b9234a4f3">f4cc23558ba95030556638b09840cfb7c98fdf1a86ab4822ff8a8f332116fc6457a737b595848c495ffc29a1e2995bb8342701d16f4643b1988aaa6700120aaf991cad2be71c4c90d1b6fbdf3cbdf0a3238a0bd17b5f6e77528c600efc1ca4b3</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这篇博客需要密码才能看哦～（悄悄告诉你密码是smile）😊</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <categories>
+      
+      <category>测试博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>加密</tag>
+      
+      <tag>测试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
