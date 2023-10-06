@@ -120,6 +120,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://yintel12138.github.io/tags/%E6%8A%A5%E5%91%8A/</loc>
+    <lastmod>2023-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yintel12138.github.io/tags/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2023-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -131,6 +145,13 @@
   
   <url>
     <loc>https://yintel12138.github.io/categories/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2023-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yintel12138.github.io/categories/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
