@@ -13,7 +13,7 @@
   <url>
     <loc>https://yintel12138.github.io/2023/09/28/LastLove/</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,16 +22,7 @@
   <url>
     <loc>https://yintel12138.github.io/2023/09/28/HangZhou-Journal/</loc>
     
-    <lastmod>2023-10-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yintel12138.github.io/2023/09/28/hello-world/</loc>
-    
-    <lastmod>2023-09-28</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -152,6 +143,13 @@
   
   <url>
     <loc>https://yintel12138.github.io/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2023-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yintel12138.github.io/categories/%E6%83%85%E6%84%9F/</loc>
     <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
