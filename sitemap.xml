@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yintel12138.github.io/2023/10/15/MeetingNote/</loc>
+    
+    <lastmod>2023-10-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yintel12138.github.io/2023/10/07/Paper-IR-net/</loc>
     
     <lastmod>2023-10-07</lastmod>
@@ -190,6 +199,20 @@
   
   <url>
     <loc>https://yintel12138.github.io/tags/%E7%88%B6%E6%AF%8D/</loc>
+    <lastmod>2023-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yintel12138.github.io/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yintel12138.github.io/tags/%E7%BB%84%E4%BC%9A/</loc>
     <lastmod>2023-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
