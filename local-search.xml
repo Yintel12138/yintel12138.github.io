@@ -4,11 +4,89 @@
   
   
   <entry>
-    <title>资源---ML CourseDesign</title>
+    <title>论文阅读---Forward and Backward Information Retention for Accurate Binary Neural Networks</title>
+    <link href="/2023/10/07/Paper-IR-net/"/>
+    <url>/2023/10/07/Paper-IR-net/</url>
+    
+    <content type="html"><![CDATA[<h2 id="论文原文"><a href="#论文原文" class="headerlink" title="论文原文"></a>论文原文</h2><div class="row">    <embed src="https://openaccess.thecvf.com/content_CVPR_2020/papers/Qin_Forward_and_Backward_Information_Retention_for_Accurate_Binary_Neural_Networks_CVPR_2020_paper.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="阅读笔记"><a href="#阅读笔记" class="headerlink" title="阅读笔记"></a>阅读笔记</h2>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Consider about another one‘s love</title>
+    <link href="/2023/10/06/Consider-about-another-one%E2%80%98s-love/"/>
+    <url>/2023/10/06/Consider-about-another-one%E2%80%98s-love/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>UESTC glance</title>
+    <link href="/2023/10/06/UESTC-glance/"/>
+    <url>/2023/10/06/UESTC-glance/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Graduate from SWJTU</title>
+    <link href="/2023/10/06/Graduate-from-SWJTU/"/>
+    <url>/2023/10/06/Graduate-from-SWJTU/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Travel in Shanghai</title>
+    <link href="/2023/10/06/Travel-in-Shanghai/"/>
+    <url>/2023/10/06/Travel-in-Shanghai/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Travel in Yun nan</title>
+    <link href="/2023/10/06/Travel-in-Yun-nan/"/>
+    <url>/2023/10/06/Travel-in-Yun-nan/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>资源---西南交通大学《机器学习实验》课程设计</title>
     <link href="/2023/10/06/ML-CourseDesign/"/>
     <url>/2023/10/06/ML-CourseDesign/</url>
     
-    <content type="html"><![CDATA[<h2 id="西南交通大学《机器学习实验》课程设计"><a href="#西南交通大学《机器学习实验》课程设计" class="headerlink" title="西南交通大学《机器学习实验》课程设计"></a>西南交通大学《机器学习实验》课程设计</h2><p>仅供参考</p><p>（回过头来看以前完成的报告，观感上还是很赏心悦目，对得起自己的努力hhh）</p><div class="row">    <embed src="/pdf/test.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    <content type="html"><![CDATA[<h2 id="西南交通大学《机器学习实验》课程设计"><a href="#西南交通大学《机器学习实验》课程设计" class="headerlink" title="西南交通大学《机器学习实验》课程设计"></a>西南交通大学《机器学习实验》课程设计</h2><h3 id="仅供参考，请勿抄袭"><a href="#仅供参考，请勿抄袭" class="headerlink" title="仅供参考，请勿抄袭 "></a><span style="color:red">仅供参考，请勿抄袭 </span></h3><h3 id="回过头来看以前完成的报告，观感上还是很赏心悦目，对得起自己的努力😁"><a href="#回过头来看以前完成的报告，观感上还是很赏心悦目，对得起自己的努力😁" class="headerlink" title="回过头来看以前完成的报告，观感上还是很赏心悦目，对得起自己的努力😁"></a>回过头来看以前完成的报告，观感上还是很赏心悦目，对得起自己的努力😁</h3><div class="row">    <embed src="/pdf/test.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
     
     
     <categories>
@@ -31,9 +109,36 @@
   
   
   <entry>
+    <title>Hexo加密功能</title>
+    <link href="/2023/10/01/Crypto-test/"/>
+    <url>/2023/10/01/Crypto-test/</url>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="a8d01c49ceae15be7cfdb01c20b7a2749dc5f6e2c9b78dadd430c1571f36b760">f4cc23558ba95030556638b09840cfb704f3786c88b878ba14a45b3d167bfac4a3758146f34aff27dc9729ff3110e5f564ba3564760a046b47e896b73a0aea1063cc682c6c4f64c5c3a047085c27210c5b4608cc3365d4a220e00e9435a5950c698183c9973f3ee48df281a265d8700f70be93009dfeca168ae54e2fda49111832cf553c3f26e494bb40ab375ac2ee430a34e78a2d7165e53bc72c644346ade53bfc8dfd9f23336329766248f2f0b556fb636ee32f4d1410e9fa556bf61ba0b567a461808dbb89f45d3c19d24c6d0db491f7429c0eaa544d1c0d1c9dc6d050e10fd26272cc2f9200323773c5f662c54063d651fdc9215b7d0048e43ad5f6416fbb39b304705c021cb5297b717e25e419ed2daf87151723d110b907abd6a1fcce2da71d900673e52080c402f6831c1b7d036f679bf2680062d717c1b67bbc81515ad57a7ec1142e92462efe576799fa8e</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这篇博客需要密码才能看哦～（悄悄告诉你密码是smile）😊</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <categories>
+      
+      <category>测试博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>加密</tag>
+      
+      <tag>测试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>致我们终将逝去的青春</title>
-    <link href="/2023/09/28/LastLove/"/>
-    <url>/2023/09/28/LastLove/</url>
+    <link href="/2023/09/28/Last-Love/"/>
+    <url>/2023/09/28/Last-Love/</url>
     
     <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="8dbc075af9122dc23f719a74b4dc23b15c4239fa8a45ff303984daca3825cfda">ffb0b1dc140d343e3196a6699eef890355b3b67d4df9eda5e62156be79b30490ed8412f4b09b28b9ec9fecd5b68d7952680dbfefb7200c3700352bd8d55d22136312bd54a01cc94c8b34232f0ce17a43</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这篇博客需要密码才能看哦～猜猜密码吧（这次是真的要密码了哦）</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
     
@@ -91,25 +196,25 @@
   
   
   <entry>
-    <title>Hexo加密功能</title>
-    <link href="/2019/09/04/crypto-test/"/>
-    <url>/2019/09/04/crypto-test/</url>
+    <title>游记---带父母游成都</title>
+    <link href="/2023/08/18/Travel-in-Chengdu-with-parents/"/>
+    <url>/2023/08/18/Travel-in-Chengdu-with-parents/</url>
     
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="2c64d506903a9c2529722c81c9b08445362bc574ff32f99e6f8d0e5b9234a4f3">f4cc23558ba95030556638b09840cfb7c98fdf1a86ab4822ff8a8f332116fc6457a737b595848c495ffc29a1e2995bb8342701d16f4643b1988aaa6700120aaf991cad2be71c4c90d1b6fbdf3cbdf0a3238a0bd17b5f6e77528c600efc1ca4b3</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这篇博客需要密码才能看哦～（悄悄告诉你密码是smile）😊</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<p>研究生开学之前（八月二十左右），父母来了一趟成都，一方面是办事，另一方面是来成都玩玩。</p><p>其实大学这四年，爸妈来成都的次数比较少，我回去的次数也比较少，这次来成都住在了本科学校交大附近，感谢老师提供的住宿！</p>]]></content>
     
     
     <categories>
       
-      <category>测试博客</category>
+      <category>生活</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>加密</tag>
+      <tag>旅行</tag>
       
-      <tag>测试</tag>
+      <tag>父母</tag>
       
     </tags>
     
