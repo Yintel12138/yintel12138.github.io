@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>总览--模型量化</title>
+    <link href="/2023/10/18/Model-quantization-survey/"/>
+    <url>/2023/10/18/Model-quantization-survey/</url>
+    
+    <content type="html"><![CDATA[<h2 id="博客文章"><a href="#博客文章" class="headerlink" title="博客文章"></a>博客文章</h2><p>Adabin</p><p><a href="https://zhuanlan.zhihu.com/p/572401697">ECCV2022 | 已开源 | AdaBin：冲破固定二值集合的桎梏，打造高精度二值神经网络 - 知乎 (zhihu.com)</a></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>学习</tag>
+      
+      <tag>模型量化</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>组会笔记</title>
     <link href="/2023/10/15/MeetingNote/"/>
     <url>/2023/10/15/MeetingNote/</url>
