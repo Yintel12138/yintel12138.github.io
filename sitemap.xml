@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://yintel12138.github.io/2023/10/18/Model-quantization-survey/</loc>
+    
+    <lastmod>2023-10-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yintel12138.github.io/2023/10/15/MeetingNote/</loc>
     
     <lastmod>2023-10-14</lastmod>
@@ -213,6 +222,20 @@
   
   <url>
     <loc>https://yintel12138.github.io/tags/%E7%BB%84%E4%BC%9A/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yintel12138.github.io/tags/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yintel12138.github.io/tags/%E6%A8%A1%E5%9E%8B%E9%87%8F%E5%8C%96/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
