@@ -452,23 +452,25 @@
   
     <article id="comments" lazyload>
       
-  <div id="gitalk-container"></div>
-  <script type="text/javascript">
-    Fluid.utils.loadComments('#gitalk-container', function() {
-      Fluid.utils.createCssLink('/css/gitalk.css')
-      Fluid.utils.createScript('https://lib.baomitu.com/gitalk/1.8.0/gitalk.min.js', function() {
-        var options = Object.assign(
-          {"clientID":"eb6c632b7b108b1cf558","clientSecret":"acd0d94a22ad94fe65b6c73f842f9d008a411a7b","repo":"gitalk_repo","owner":"Yintel12138","admin":["Yintel12138"],"language":"zh-CN","labels":["Gitalk"],"perPage":10,"pagerDirection":"last","distractionFreeMode":false,"createIssueManually":true,"proxy":"https://cors-anywhere.myideame.workers.dev/https://github.com/login/oauth/access_token"},
-          {
-            id: 'f8676900b49b74cf7d9ed7abd33b0373'
-          }
-        )
-        var gitalk = new Gitalk(options);
-        gitalk.render('gitalk-container');
-      });
-    });
-  </script>
-  <noscript>Please enable JavaScript to view the comments</noscript>
+<!-- CSS -->
+<link href="https://unpkg.com/artalk@2.4.4/dist/Artalk.css" rel="stylesheet" />
+
+<!-- JS -->
+<script src="https://unpkg.com/artalk@2.4.4/dist/Artalk.js"></script>
+<div id="Comments"></div>
+
+<script type="text/javascript">
+
+  new Artalk({
+    el: "#Comments",
+    pageKey: "https://yintel12138.github.io/2023/10/06/ML-CourseDesign/",
+    pageTitle: "资源---西南交通大学《机器学习实验》课程设计",
+    server: "http://artalk.yintel.top",
+    site: "Blog",
+  });
+</script>
+
+<noscript>Please enable JavaScript to view the comments</noscript>
 
 
     </article>
