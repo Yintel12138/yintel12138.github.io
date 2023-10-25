@@ -452,6 +452,12 @@
   
     <article id="comments" lazyload>
       
+<!-- 跨域 -->
+<meta
+  http-equiv="Content-Security-Policy"
+  content="upgrade-insecure-requests"
+/>
+
 <!-- CSS -->
 <link href="https://unpkg.com/artalk@2.4.4/dist/Artalk.css" rel="stylesheet" />
 
@@ -460,7 +466,6 @@
 <div id="Comments"></div>
 
 <script type="text/javascript">
-
   new Artalk({
     el: "#Comments",
     pageKey: "https://yintel12138.github.io/2023/10/06/ML-CourseDesign/",
