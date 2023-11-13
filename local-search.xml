@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Java Learning Experience</title>
+    <link href="/2023/11/13/Java-Learning-Experience/"/>
+    <url>/2023/11/13/Java-Learning-Experience/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Spring6学习"><a href="#Spring6学习" class="headerlink" title="Spring6学习"></a>Spring6学习</h2><ul><li>参考教程：Spring 核心教程 已完结（IDEA 2023最新版）4K蓝光画质 基于Spring6的全新重制版本 起立到起飞（<a href="https://www.bilibili.com/video/BV1Kv4y1x7is%EF%BC%89">https://www.bilibili.com/video/BV1Kv4y1x7is）</a></li></ul><table><thead><tr><th>序号</th><th>视频标题</th><th>是否学习</th><th>学后感</th></tr></thead><tbody><tr><td>1</td><td>Spring基础：走进Spring框架</td><td>✅</td><td>发现自己还有很多没有学懂，但是还有java基础，所以还来得及补习</td></tr><tr><td>2</td><td>Spring基础：IoC理论基础</td><td>✅</td><td>IoC控制反转，IoC容器用来管理Bean</td></tr><tr><td>3</td><td>Spring基础：第一个Spring项目</td><td>✅</td><td>使用idea创建了一个Spring项目</td></tr><tr><td>4</td><td>Spring基础：Bean注册与配置</td><td>✅</td><td>使用xml方式管理bean</td></tr><tr><td>5</td><td>Spring基础：依赖注入</td><td>✅</td><td></td></tr><tr><td>6</td><td>Spring基础：自动装配</td><td>✅</td><td>可以不用手动指定，而是通过ByType或者ByName进行自动装配</td></tr><tr><td>7</td><td>Spring基础：生命周期与继承</td><td>✅</td><td>介绍两个方法，init和destroy</td></tr><tr><td>8</td><td>Spring基础：工厂模式与工厂Bean</td><td>✅</td><td>关于工厂模式</td></tr><tr><td>9</td><td>Spring基础：使用注解开发</td><td>✅</td><td>走神了</td></tr><tr><td>⭐</td><td>笔记整理回顾</td><td></td><td></td></tr><tr><td>⭐</td><td>编程实践</td><td></td><td></td></tr><tr><td>10</td><td>选学：Aware系列接口</td><td></td><td></td></tr><tr><td>11</td><td>选学：任务调度</td><td></td><td></td></tr><tr><td>12</td><td>选学：监听器</td><td></td><td></td></tr><tr><td>13</td><td>SpEL入门：外部属性注入</td><td></td><td></td></tr><tr><td>14</td><td>SpEL入门：简单使用</td><td></td><td></td></tr><tr><td>15</td><td>SpEL入门：集合类相关操作</td><td></td><td></td></tr><tr><td>16</td><td>Spring基础：XML配置AOP</td><td></td><td></td></tr><tr><td>17</td><td>Spring基础：接口实现AOP</td><td></td><td></td></tr><tr><td>18</td><td>Spring基础：注解实现AOP</td><td></td><td></td></tr><tr><td>19</td><td>Mybatis整合：了解数据源</td><td></td><td></td></tr><tr><td>20</td><td>选学：两种数据源实现原理解读</td><td></td><td></td></tr><tr><td>21</td><td>Mybatis整合：整合流程与实现</td><td></td><td></td></tr><tr><td>22</td><td>Mybatis整合：HikariCP连接池</td><td></td><td></td></tr><tr><td>23</td><td>Mybatis整合：事务管理</td><td></td><td></td></tr><tr><td>24</td><td>Mybatis整合：Spring事务</td><td></td><td></td></tr><tr><td>25</td><td>JUnit整合：基本使用</td><td></td><td></td></tr><tr><td>26</td><td>原理探究：Bean的定义与生成</td><td></td><td></td></tr><tr><td>27</td><td>原理探究：单例Bean创建与循环依赖</td><td></td><td></td></tr><tr><td>28</td><td>原理探究：AOP与后置处理器</td><td></td><td></td></tr><tr><td>29</td><td>原理探究：应用程序上下文</td><td></td><td></td></tr><tr><td>30</td><td>原理探究：Mybatis整合原理</td><td></td><td></td></tr></tbody></table>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>总览--模型量化</title>
     <link href="/2023/10/18/Model-quantization-survey/"/>
     <url>/2023/10/18/Model-quantization-survey/</url>
