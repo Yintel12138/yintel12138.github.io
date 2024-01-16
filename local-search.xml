@@ -21,7 +21,7 @@
     <link href="/2023/10/18/Model-quantization-survey/"/>
     <url>/2023/10/18/Model-quantization-survey/</url>
     
-    <content type="html"><![CDATA[<h2 id="博客文章"><a href="#博客文章" class="headerlink" title="博客文章"></a>博客文章</h2><p>Adabin</p><p><a href="https://zhuanlan.zhihu.com/p/572401697">ECCV2022 | 已开源 | AdaBin：冲破固定二值集合的桎梏，打造高精度二值神经网络 - 知乎 (zhihu.com)</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="博客文章"><a href="#博客文章" class="headerlink" title="博客文章"></a>博客文章</h2><p>Adabin</p><h2 id="相关论文"><a href="#相关论文" class="headerlink" title="相关论文"></a>相关论文</h2><table><thead><tr><th>论文</th><th>年份</th><th>会议&#x2F;期刊</th><th>代码链接</th><th>备注</th><th>笔记</th></tr></thead><tbody><tr><td>Adabin: Improving Binary Neural Networks with Adaptive Binary Sets</td><td>2022</td><td>ECCV</td><td></td><td></td><td></td></tr><tr><td>IR-Net: Forward and Backward Information Retention for Accurate Binary Neural Networks</td><td>2020</td><td>CVPR</td><td><a href="https://github.com/htqin/IR-Net">https://github.com/htqin/IR-Net</a></td><td>精读，开启二值化学习之路</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table><h2 id="SOTA模型性能"><a href="#SOTA模型性能" class="headerlink" title="SOTA模型性能"></a>SOTA模型性能</h2><h3 id="CIFAR10"><a href="#CIFAR10" class="headerlink" title="CIFAR10"></a>CIFAR10</h3><h3 id="ImageNet-1K"><a href="#ImageNet-1K" class="headerlink" title="ImageNet-1K"></a>ImageNet-1K</h3><h3 id="CIFAR100"><a href="#CIFAR100" class="headerlink" title="CIFAR100"></a>CIFAR100</h3>]]></content>
     
     
     
