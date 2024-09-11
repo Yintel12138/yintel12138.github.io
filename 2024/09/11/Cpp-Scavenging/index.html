@@ -16,24 +16,22 @@
   <meta name="author" content="Yintel">
   <meta name="keywords" content="life study technology coding">
   
-    <meta name="description" content="!!!注：本文只讨论技术，其他与本文无关场景访问某些网络受限的计算机A可访问某些网络受限的计算机B公网服务器C 方法原理本方法基于SSH提供的反向代理隧道功能，配合frp（Fast Reverse Proxy）服务，在网络受限的场景下实现计算机A与计算机B间的安全连接。SSH反向隧道能够让位于内网的计算机B主动建立连接到公网服务器C，并将请求转发到计算机A，实现远程访问的目的。frp服务作为内网穿">
+    <meta name="description" content="复习目标：  函数&#x2F;运算符重载 虚函数与抽象类 内存模型 OOP 相关（封装继承多态） 指针（原始指针） 动态内存分配与释放 引用 （右值引用、完美转发） 字符串处理 模版 友元  输出：  博客 1-3 篇  1. 函数&#x2F;运算符重载C++ 允许在同一作用域中的某个函数和运算符指定多个定义，分别称为函数重载和运算符重载。 重载声明是指一个与之前已经在该作用域内声明过的函数或方法">
 <meta property="og:type" content="article">
-<meta property="og:title" content="受限主机通过ssh的socks5代理访问其他计算机网络的方法">
-<meta property="og:url" content="https://yintel12138.github.io/2024/06/17/ssh-with-socks5/index.html">
+<meta property="og:title" content="Cpp Scavenging">
+<meta property="og:url" content="https://yintel12138.github.io/2024/09/11/Cpp-Scavenging/index.html">
 <meta property="og:site_name" content="Yintel&#39;s Blog">
-<meta property="og:description" content="!!!注：本文只讨论技术，其他与本文无关场景访问某些网络受限的计算机A可访问某些网络受限的计算机B公网服务器C 方法原理本方法基于SSH提供的反向代理隧道功能，配合frp（Fast Reverse Proxy）服务，在网络受限的场景下实现计算机A与计算机B间的安全连接。SSH反向隧道能够让位于内网的计算机B主动建立连接到公网服务器C，并将请求转发到计算机A，实现远程访问的目的。frp服务作为内网穿">
+<meta property="og:description" content="复习目标：  函数&#x2F;运算符重载 虚函数与抽象类 内存模型 OOP 相关（封装继承多态） 指针（原始指针） 动态内存分配与释放 引用 （右值引用、完美转发） 字符串处理 模版 友元  输出：  博客 1-3 篇  1. 函数&#x2F;运算符重载C++ 允许在同一作用域中的某个函数和运算符指定多个定义，分别称为函数重载和运算符重载。 重载声明是指一个与之前已经在该作用域内声明过的函数或方法">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-06-17T01:54:22.000Z">
-<meta property="article:modified_time" content="2024-06-17T01:55:18.529Z">
+<meta property="article:published_time" content="2024-09-11T09:59:40.000Z">
+<meta property="article:modified_time" content="2024-09-11T11:45:53.173Z">
 <meta property="article:author" content="Yintel">
-<meta property="article:tag" content="ssh">
-<meta property="article:tag" content="网络折腾">
-<meta property="article:tag" content="socks5">
+<meta property="article:tag" content="life study technology coding">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>受限主机通过ssh的socks5代理访问其他计算机网络的方法 - Yintel&#39;s Blog</title>
+  <title>Cpp Scavenging - Yintel&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -251,7 +249,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="受限主机通过ssh的socks5代理访问其他计算机网络的方法"></span>
+            <span id="subtitle" data-typed-text="Cpp Scavenging"></span>
           
         </div>
 
@@ -262,8 +260,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-06-17 09:54" pubdate>
-          2024年6月17日 上午
+        <time datetime="2024-09-11 17:59" pubdate>
+          2024年9月11日 下午
         </time>
       </span>
     
@@ -274,7 +272,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          818 字
+          2.4k 字
         
       </span>
     
@@ -285,7 +283,7 @@
         
         
         
-          7 分钟
+          20 分钟
         
       </span>
     
@@ -322,38 +320,53 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">受限主机通过ssh的socks5代理访问其他计算机网络的方法</h1>
+            <h1 id="seo-header">Cpp Scavenging</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="注：本文只讨论技术，其他与本文无关"><a href="#注：本文只讨论技术，其他与本文无关" class="headerlink" title="!!!注：本文只讨论技术，其他与本文无关"></a>!!!注：本文只讨论技术，其他与本文无关</h1><h3 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h3><p>访问某些网络受限的计算机A<br>可访问某些网络受限的计算机B<br>公网服务器C</p>
-<h3 id="方法原理"><a href="#方法原理" class="headerlink" title="方法原理"></a>方法原理</h3><p>本方法基于SSH提供的反向代理隧道功能，配合frp（Fast Reverse Proxy）服务，在网络受限的场景下实现计算机A与计算机B间的安全连接。SSH反向隧道能够让位于内网的计算机B主动建立连接到公网服务器C，并将请求转发到计算机A，实现远程访问的目的。frp服务作为内网穿透的工具，进一步增强了连接的稳定性和灵活性。</p>
-<h3 id="具体实现过程"><a href="#具体实现过程" class="headerlink" title="具体实现过程"></a>具体实现过程</h3><ol>
-<li>在计算机B和公网服务器C上配置frp内网穿透服务<ul>
-<li>在公网服务器C上部署frp服务端。</li>
-<li>在计算机B上部署frp客户端，配置好对应服务端的连接信息，以确保B可以通过C转发请求。</li>
+                <p>复习目标：</p>
+<ul>
+<li>函数&#x2F;运算符重载</li>
+<li>虚函数与抽象类</li>
+<li>内存模型</li>
+<li>OOP 相关（封装继承多态）</li>
+<li>指针（原始指针）</li>
+<li>动态内存分配与释放</li>
+<li>引用 （右值引用、完美转发）</li>
+<li>字符串处理</li>
+<li>模版</li>
+<li>友元</li>
 </ul>
-</li>
-<li>计算机A通过ssh经过C的frp转发，连接到B<ul>
-<li><code>ssh -D 1080 -p 2222 user@serverC</code></li>
+<p>输出：</p>
+<ul>
+<li>博客 1-3 篇</li>
 </ul>
-</li>
-<li>在A上配置socks5s代理（可使用proxychain完成，即插即用）<ul>
-<li>利用ProxyChains或类似工具，配置代理为<code>socks5 127.0.0.1 1080</code>，可以让计算机A上的流量通过计算机B访问网络。</li>
+<h3 id="1-函数-运算符重载"><a href="#1-函数-运算符重载" class="headerlink" title="1. 函数&#x2F;运算符重载"></a>1. 函数&#x2F;运算符重载</h3><p>C++ 允许在同一作用域中的某个<strong>函数</strong>和<strong>运算符</strong>指定多个定义，分别称为<strong>函数重载</strong>和<strong>运算符重载</strong>。</p>
+<p>重载声明是指一个与之前已经在该作用域内声明过的函数或方法具有相同名称的声明，但是它们的<strong>参数列表和定义（实现）不相同</strong>。</p>
+<p><strong>函数重载</strong>比较简单，但是需要注意的是，区分重载函数的是参数列表，返回值不作为判断的标准。两个函数如果只有返回值类型不同，而参数列表相同，是<strong>不能构成重载</strong>的，会发生：会出现编译错误，提示函数重载冲突，因为编译器无法仅通过返回值类型来区分这两个函数。</p>
+<p><strong>运算符重载</strong>稍微有点复杂。可以重定义或重载大部分 C++ 内置的运算符，重载的运算符是带有特殊名称的函数，函数名是由关键字 operator 和其后要重载的运算符符号构成的。与其他函数一样，重载运算符有一个返回类型和一个参数列表。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">// 定义为成员函数</span><br>Box <span class="hljs-keyword">operator</span>+(<span class="hljs-type">const</span> Box&amp;);<br><span class="hljs-comment">// 定义上面的函数为类的非成员函数</span><br>Box <span class="hljs-keyword">operator</span>+(<span class="hljs-type">const</span> Box&amp;, <span class="hljs-type">const</span> Box&amp;);<br></code></pre></td></tr></table></figure>
+
+<p>具体的用法：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs cpp">Box <span class="hljs-keyword">operator</span>+(<span class="hljs-type">const</span> Box&amp; b)<br>&#123;<br>   Box box;<br>   box.length = <span class="hljs-keyword">this</span>-&gt;length + b.length;<br>   box.breadth = <span class="hljs-keyword">this</span>-&gt;breadth + b.breadth;<br>   box.height = <span class="hljs-keyword">this</span>-&gt;height + b.height;<br>   <span class="hljs-keyword">return</span> box;<br>&#125;<br><span class="hljs-comment">// 把两个对象相加，得到 Box3</span><br>Box3 = Box1 + Box2;<br></code></pre></td></tr></table></figure>
+
+<p>哪些能够重载，哪些不能重载？<br>可重载的：<br>![[Pasted image 20240911181705.png]]</p>
+<p>下面是不可重载的运算符列表：</p>
+<ul>
+<li>.：成员访问运算符</li>
+<li>.*, -&gt;*：成员指针访问运算符</li>
+<li>::：域运算符</li>
+<li>sizeof：长度运算符</li>
+<li>?:：条件运算符</li>
+<li><code>#</code> 预处理符号</li>
 </ul>
-</li>
-</ol>
-<h3 id="带宽瓶颈分析"><a href="#带宽瓶颈分析" class="headerlink" title="带宽瓶颈分析"></a>带宽瓶颈分析</h3><ul>
-<li>带宽瓶颈主要受公网服务器C的网络带宽和计算机A、B之间的网络质量限制。</li>
-<li>反向代理和Socks5代理会引入额外的网络延迟，对于大量数据的传输和要求高响应速度的应用，性能可能受到影响。</li>
-</ul>
-<h3 id="安全性能分析"><a href="#安全性能分析" class="headerlink" title="安全性能分析"></a>安全性能分析</h3><ul>
-<li>使用SSH隧道和frp服务，整个通信过程都是加密的，提高了数据传输的安全性。</li>
-<li>需要妥善保管公网服务器C的访问凭证，以防遭到未授权访问。</li>
-<li>定期更新SSH和frp相关软件，应用安全补丁以防范潜在的安全风险。</li>
-</ul>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>本文介绍了利用SSH反向代理隧道和frp内网穿透服务，在网络受限的情况下实现远程连接计算机A与计算机B的方法。该方案在提供跨网络连接的同时，也保证了通信的安全性。然而，需要注意网络带宽和延迟对性能的影响，并妥善管理安全凭证和更新维护相关软件。这种方式为许多需要远程工作和数据传输的场景提供了一种有效的解决方案。</p>
+<p>一个🌰—重载前缀&#x2F;后缀 <code>++</code>，注意体会他们的区别</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">// 重载前缀递增运算符（ ++ ）</span><br>Time <span class="hljs-keyword">operator</span>++ ()  <br>&#123;<br>   ++minutes;          <span class="hljs-comment">// 对象加 1</span><br>   <span class="hljs-keyword">if</span>(minutes &gt;= <span class="hljs-number">60</span>)  <br>   &#123;<br>      ++hours;<br>      minutes -= <span class="hljs-number">60</span>;<br>   &#125;<br>   <span class="hljs-keyword">return</span> <span class="hljs-built_in">Time</span>(hours, minutes);<br>&#125;<br><span class="hljs-comment">// 重载后缀递增运算符（ ++ ）</span><br>Time <span class="hljs-keyword">operator</span>++( <span class="hljs-type">int</span> )       <br>&#123;<br>   <span class="hljs-comment">// 保存原始值</span><br>   <span class="hljs-function">Time <span class="hljs-title">T</span><span class="hljs-params">(hours, minutes)</span></span>;<br>   <span class="hljs-comment">// 对象加 1</span><br>   ++minutes;                  <br>   <span class="hljs-keyword">if</span>(minutes &gt;= <span class="hljs-number">60</span>)<br>   &#123;<br>      ++hours;<br>      minutes -= <span class="hljs-number">60</span>;<br>   &#125;<br>   <span class="hljs-comment">// 返回旧的原始值</span><br>   <span class="hljs-keyword">return</span> T; <br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h3 id="2-虚函数与抽象类"><a href="#2-虚函数与抽象类" class="headerlink" title="2. 虚函数与抽象类"></a>2. 虚函数与抽象类</h3><p>使用关键字 <code>virtual</code> 在基类中声明虚函数，主要用于实现多态性。</p>
+<p>编译器为包含虚函数的类创建一个虚函数表（V-Table）。每个对象包含一个指向虚函数表的指针（V-Ptr）。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-comment">// 基类</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Base</span> &#123;<br><span class="hljs-keyword">public</span>:<br>    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-type">void</span> <span class="hljs-title">show</span><span class="hljs-params">()</span> <span class="hljs-type">const</span> </span>&#123; <span class="hljs-comment">// 虚函数</span><br>        std::cout &lt;&lt; <span class="hljs-string">&quot;Base class&quot;</span> &lt;&lt; std::endl;<br>    &#125;<br>    <span class="hljs-keyword">virtual</span> ~<span class="hljs-built_in">Base</span>() = <span class="hljs-keyword">default</span>; <span class="hljs-comment">// 虚析构函数</span><br>&#125;;<br><br><span class="hljs-comment">// 派生类1</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Derived1</span> : <span class="hljs-keyword">public</span> Base &#123;<br><span class="hljs-keyword">public</span>:<br>    <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">show</span><span class="hljs-params">()</span> <span class="hljs-type">const</span> <span class="hljs-keyword">override</span> </span>&#123; <span class="hljs-comment">// 重写虚函数</span><br>        std::cout &lt;&lt; <span class="hljs-string">&quot;Derived1 class&quot;</span> &lt;&lt; std::endl;<br>    &#125;<br>&#125;;<br><br><span class="hljs-comment">// 派生类2</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Derived2</span> : <span class="hljs-keyword">public</span> Base &#123;<br><span class="hljs-keyword">public</span>:<br>    <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">show</span><span class="hljs-params">()</span> <span class="hljs-type">const</span> <span class="hljs-keyword">override</span> </span>&#123; <span class="hljs-comment">// 重写虚函数</span><br>        std::cout &lt;&lt; <span class="hljs-string">&quot;Derived2 class&quot;</span> &lt;&lt; std::endl;<br>    &#125;<br>&#125;;<br><br><span class="hljs-comment">// 派生类3</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Derived3</span> : <span class="hljs-keyword">public</span> Base &#123;<br><span class="hljs-keyword">public</span>:<br>    <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">show</span><span class="hljs-params">()</span> <span class="hljs-type">const</span> <span class="hljs-keyword">override</span> </span>&#123; <span class="hljs-comment">// 重写虚函数</span><br>        std::cout &lt;&lt; <span class="hljs-string">&quot;Derived3 class&quot;</span> &lt;&lt; std::endl;<br>    &#125;<br>&#125;;<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">display</span><span class="hljs-params">(<span class="hljs-type">const</span> Base&amp; obj)</span> </span>&#123;<br>    obj.<span class="hljs-built_in">show</span>(); <span class="hljs-comment">// 调用实际对象的show函数</span><br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>&#123;<br>    Base base;<br>    Derived1 derived1;<br>    Derived2 derived2;<br>    Derived3 derived3;<br><br>    <span class="hljs-built_in">display</span>(base);    <span class="hljs-comment">// 调用Base::show</span><br>    <span class="hljs-built_in">display</span>(derived1); <span class="hljs-comment">// 调用Derived1::show</span><br>    <span class="hljs-built_in">display</span>(derived2); <span class="hljs-comment">// 调用Derived2::show</span><br>    <span class="hljs-built_in">display</span>(derived3); <span class="hljs-comment">// 调用Derived3::show</span><br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
 
                 
               </div>
@@ -363,17 +376,6 @@
               <div class="post-metas my-3">
   
   
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/ssh/" class="print-no-link">#ssh</a>
-      
-        <a href="/tags/%E7%BD%91%E7%BB%9C%E6%8A%98%E8%85%BE/" class="print-no-link">#网络折腾</a>
-      
-        <a href="/tags/socks5/" class="print-no-link">#socks5</a>
-      
-    </div>
-  
 </div>
 
 
@@ -382,8 +384,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>受限主机通过ssh的socks5代理访问其他计算机网络的方法</div>
-      <div>https://yintel12138.github.io/2024/06/17/ssh-with-socks5/</div>
+      <div>Cpp Scavenging</div>
+      <div>https://yintel12138.github.io/2024/09/11/Cpp-Scavenging/</div>
     </div>
     <div class="license-meta">
       
@@ -395,7 +397,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年6月17日</div>
+          <div>2024年9月11日</div>
         </div>
       
       
@@ -427,18 +429,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/09/11/Cpp-Scavenging/" title="Cpp Scavenging">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Cpp Scavenging</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/04/01/Algorithm-Improve/" title="算法能力提升计划 Algorithm Capability Enhancement Program">
-                        <span class="hidden-mobile">算法能力提升计划 Algorithm Capability Enhancement Program</span>
+                      <a href="/2024/06/17/ssh-with-socks5/" title="受限主机通过ssh的socks5代理访问其他计算机网络的方法">
+                        <span class="hidden-mobile">受限主机通过ssh的socks5代理访问其他计算机网络的方法</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
