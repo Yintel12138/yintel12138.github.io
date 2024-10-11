@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>muduo网络库</title>
+    <link href="/2024/10/11/muduo-Lib/"/>
+    <url>/2024/10/11/muduo-Lib/</url>
+    
+    <content type="html"><![CDATA[<ol start="0"><li>muduo网络库是什么?<br>muduo库是陈硕个人开发的tcp网络编程库。</li><li>muduo中的核心组件</li></ol><ul><li>网络相关模块：如Socket、InetAddress、TcpConnection、Acceptor、TcpServer等</li><li>事件循环相关模块：如EventLoop、Channel、Poller、EPollPoller等</li><li>线程相关模块：如Thread、EventLoopThread、EventLoopThreadPool等</li><li>基础模块：如用户态缓冲区Buffer、时间戳Timestamp、日志类Logger等</li></ul><ol><li><p>I&#x2F;O多路复用技术</p></li><li><p>Reactor网络模型</p></li></ol><p>muduo所使用的是Multi-reactor模型，其中有main EventLoop负责接受连接并指派给sub EventLoop进行处理。</p><p><img src="/image/muduo-Lib/1728652285553.png" alt="1728652285553"><br>在TCP网络编程中，想要IO多路复用监听某个文件描述符，就要把这个fd和该fd感兴趣的事件通过epoll_ctl注册到IO多路复用模块（我管它叫事件监听器）上。当事件监听器监听到该fd发生了某个事件。事件监听器返回发生事件的fd集合以及每个fd都发生了什么事件</p><ol><li><p>代码细节</p></li><li><p>功能拓展</p></li></ol><ul><li>利用IO_Uring的poll模式实现高性能IO</li></ul><ol><li>功能&#x2F;性能测试</li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>CPP</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>C++ 新特性</title>
     <link href="/2024/09/11/Cpp-new-feature/"/>
     <url>/2024/09/11/Cpp-new-feature/</url>

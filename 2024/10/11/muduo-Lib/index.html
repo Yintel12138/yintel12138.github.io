@@ -16,22 +16,24 @@
   <meta name="author" content="Yintel">
   <meta name="keywords" content="life study technology coding">
   
-    <meta name="description" content="welcome to my blog">
+    <meta name="description" content="muduo网络库是什么?muduo库是陈硕个人开发的tcp网络编程库。 muduo中的核心组件   网络相关模块：如Socket、InetAddress、TcpConnection、Acceptor、TcpServer等 事件循环相关模块：如EventLoop、Channel、Poller、EPollPoller等 线程相关模块：如Thread、EventLoopThread、EventLoop">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C++ 新特性">
-<meta property="og:url" content="https://yintel12138.github.io/2024/09/11/Cpp-new-feature/index.html">
+<meta property="og:title" content="muduo网络库">
+<meta property="og:url" content="https://yintel12138.github.io/2024/10/11/muduo-Lib/index.html">
 <meta property="og:site_name" content="Yintel&#39;s Blog">
-<meta property="og:description" content="welcome to my blog">
+<meta property="og:description" content="muduo网络库是什么?muduo库是陈硕个人开发的tcp网络编程库。 muduo中的核心组件   网络相关模块：如Socket、InetAddress、TcpConnection、Acceptor、TcpServer等 事件循环相关模块：如EventLoop、Channel、Poller、EPollPoller等 线程相关模块：如Thread、EventLoopThread、EventLoop">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-09-11T12:40:34.000Z">
-<meta property="article:modified_time" content="2024-09-11T12:40:59.595Z">
+<meta property="og:image" content="https://yintel12138.github.io/image/muduo-Lib/1728652285553.png">
+<meta property="article:published_time" content="2024-10-11T13:05:53.000Z">
+<meta property="article:modified_time" content="2024-10-11T13:13:33.842Z">
 <meta property="article:author" content="Yintel">
-<meta property="article:tag" content="life study technology coding">
+<meta property="article:tag" content="CPP">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://yintel12138.github.io/image/muduo-Lib/1728652285553.png">
   
   
   
-  <title>C++ 新特性 - Yintel&#39;s Blog</title>
+  <title>muduo网络库 - Yintel&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -249,7 +251,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="C++ 新特性"></span>
+            <span id="subtitle" data-typed-text="muduo网络库"></span>
           
         </div>
 
@@ -260,8 +262,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-09-11 20:40" pubdate>
-          2024年9月11日 晚上
+        <time datetime="2024-10-11 21:05" pubdate>
+          2024年10月11日 晚上
         </time>
       </span>
     
@@ -272,7 +274,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          0 字
+          514 字
         
       </span>
     
@@ -283,7 +285,7 @@
         
         
         
-          1 分钟
+          5 分钟
         
       </span>
     
@@ -320,12 +322,42 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">C++ 新特性</h1>
+            <h1 id="seo-header">muduo网络库</h1>
             
             
               <div class="markdown-body">
                 
-                
+                <ol start="0">
+<li>muduo网络库是什么?<br>muduo库是陈硕个人开发的tcp网络编程库。</li>
+<li>muduo中的核心组件</li>
+</ol>
+<ul>
+<li>网络相关模块：如Socket、InetAddress、TcpConnection、Acceptor、TcpServer等</li>
+<li>事件循环相关模块：如EventLoop、Channel、Poller、EPollPoller等</li>
+<li>线程相关模块：如Thread、EventLoopThread、EventLoopThreadPool等</li>
+<li>基础模块：如用户态缓冲区Buffer、时间戳Timestamp、日志类Logger等</li>
+</ul>
+<ol>
+<li><p>I&#x2F;O多路复用技术</p>
+</li>
+<li><p>Reactor网络模型</p>
+</li>
+</ol>
+<p>muduo所使用的是Multi-reactor模型，其中有main EventLoop负责接受连接并指派给sub EventLoop进行处理。</p>
+<p><img src="/image/muduo-Lib/1728652285553.png" srcset="/img/loading.gif" lazyload alt="1728652285553"><br>在TCP网络编程中，想要IO多路复用监听某个文件描述符，就要把这个fd和该fd感兴趣的事件通过epoll_ctl注册到IO多路复用模块（我管它叫事件监听器）上。当事件监听器监听到该fd发生了某个事件。事件监听器返回发生事件的fd集合以及每个fd都发生了什么事件</p>
+<ol>
+<li><p>代码细节</p>
+</li>
+<li><p>功能拓展</p>
+</li>
+</ol>
+<ul>
+<li>利用IO_Uring的poll模式实现高性能IO</li>
+</ul>
+<ol>
+<li>功能&#x2F;性能测试</li>
+</ol>
+
                 
               </div>
             
@@ -333,6 +365,13 @@
             <div>
               <div class="post-metas my-3">
   
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/CPP/" class="print-no-link">#CPP</a>
+      
+    </div>
   
 </div>
 
@@ -342,8 +381,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>C++ 新特性</div>
-      <div>https://yintel12138.github.io/2024/09/11/Cpp-new-feature/</div>
+      <div>muduo网络库</div>
+      <div>https://yintel12138.github.io/2024/10/11/muduo-Lib/</div>
     </div>
     <div class="license-meta">
       
@@ -355,7 +394,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年9月11日</div>
+          <div>2024年10月11日</div>
         </div>
       
       
@@ -387,18 +426,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/10/11/muduo-Lib/" title="muduo网络库">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">muduo网络库</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/09/11/Cpp-Scavenging/" title="Cpp 拾遗">
-                        <span class="hidden-mobile">Cpp 拾遗</span>
+                      <a href="/2024/09/11/Cpp-new-feature/" title="C++ 新特性">
+                        <span class="hidden-mobile">C++ 新特性</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
